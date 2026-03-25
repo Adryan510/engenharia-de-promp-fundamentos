@@ -1,1 +1,1 @@
-
+Este repositório é para a disciplina de Promp E Aplicações em Inteligencia Artificial.Explora técnicas e metologias para projetar, omitizar e avaliar interaçoes com modelos de linguagem de sistemas de IA generativa.
