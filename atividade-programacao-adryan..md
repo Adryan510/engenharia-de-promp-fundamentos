@@ -1,12 +1,14 @@
 Atividade – Prompt Mestre em Programação de Computadores
  Tema: Funções em Python
 
-Prompt Mestre Inicial
+Prompt Mestre Inicial:
+
 Escreva uma função em Python que receba dois números e retorne a soma deles
 
-Variação 1
+Variação 1:
 Escreva a função em Python e explique passo a passo como funciona.
-*Resposta do LLM:
+
+Resposta do LLM:
 python
 def soma(a, b):
     return a + b
@@ -17,9 +19,10 @@ print(resultado)
 Explicação:
 A função chamada "soma" recebe dois parâmetros (a e b). Dentro da função, ela retorna a soma desses dois valores. Depois, a função é chamada passando os valores 5 e 3, e o resultado é armazenado na variável "resultado". Por fim, o valor é exibido na tela.
 
-Variação 2
+Variação 2:
 Melhore a função para validar se os valores são números antes de somar.
-Resposta do LLM:**
+
+Resposta do LLM:
 python
 def soma(a, b):
     if isinstance(a, (int, float)) and isinstance(b, (int, float)):
@@ -29,9 +32,10 @@ def soma(a, b):
 
 print(soma(5, 3))
 
-Variação 3
+Variação 3:
 Explique a função em linguagem simples, como se fosse para um iniciante.
-Resposta do LLM:**
+
+Resposta do LLM:
 Essa função serve para somar dois números. Você informa os valores, e ela devolve o resultado da soma. Se os valores não forem números, ela retorna uma mensagem de erro. Isso ajuda a evitar problemas no programa.
 
 Reflexão
