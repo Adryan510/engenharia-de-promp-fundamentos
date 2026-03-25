@@ -25,12 +25,12 @@ Melhore a função para validar se os valores são números antes de somar.
 Resposta do LLM:
 python
 def soma(a, b):
-    if isinstance(a, (int, float)) and isinstance(b, (int, float)):
+    if isinstance(a, (int, float) and isinstance(b, (int, float):
         return a + b
     else:
         return "Erro: valores inválidos"
 
-print(soma(5, 3))
+print(soma(5, 3)
 
 Variação 3:
 Explique a função em linguagem simples, como se fosse para um iniciante.
@@ -38,6 +38,6 @@ Explique a função em linguagem simples, como se fosse para um iniciante.
 Resposta do LLM:
 Essa função serve para somar dois números. Você informa os valores, e ela devolve o resultado da soma. Se os valores não forem números, ela retorna uma mensagem de erro. Isso ajuda a evitar problemas no programa.
 
-Reflexão
+Reflexão:
 
 Ao modificar os prompts, percebi que pequenas mudanças nas instruções influenciam diretamente nas respostas geradas. A versão com explicação foi a mais útil para o aprendizado, pois facilitou o entendimento do funcionamento da função. Já a versão com validação mostrou uma aplicação mais prática e segura do código. Isso demonstra que a engenharia de prompt pode ser usada para obter respostas mais completas, adaptadas ao nível de conhecimento e à necessidade do programador.
