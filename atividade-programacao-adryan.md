@@ -28,6 +28,7 @@ A função chamada `soma` recebe dois parâmetros (`a` e `b`). Dentro da funçã
 Depois, a função é chamada passando os valores `5` e `3`, e o resultado é armazenado na variável `resultado`.  
 
 Por fim, o valor é exibido na tela com `print()`.
+
 ### Variação 2
 
 **Prompt:**  
@@ -42,6 +43,7 @@ def soma(a, b):
         return "Erro: valores inválidos"
 
 print(soma(5, 3))
+
 ### Variação 3
 
 **Prompt:**  
