@@ -1,29 +1,37 @@
-# Código funcional com a média dos alunos
+# 📊 Código funcional com a média dos alunos
 
+```python
 def calcular_media(nota1, nota2):
     media = (nota1 + nota2) / 2
     return media
 
 # Exemplo de uso
-
-nota1 = float(input("Digite a primeira nota: "))
-nota2 = float(input("Digite a segunda nota: "))
+nota1 = float(input("Digitar a primeira nota: "))
+nota2 = float(input("Digitar a segunda nota: "))
 
 media = calcular_media(nota1, nota2)
 
 print(f"Média do aluno: {media:.2f}")
+```
 
-# Versão Neutra
+---
 
+# ⚖️ Versão Neutra
+
+```python
 nota1 = float(input())
 nota2 = float(input())
 
 media = (nota1 + nota2) / 2
 
 print(media)
+```
 
-# Versão Persona
+---
 
+# 🧑‍💻 Versão Persona
+
+```python
 def calcular_media(nota1: float, nota2: float) -> float:
     if not (0 <= nota1 <= 10 and 0 <= nota2 <= 10):
         raise ValueError("Notas devem estar entre 0 e 10.")
@@ -44,44 +52,51 @@ def main():
 
 if __name__ == "__main__":
     main()
-# Versão restritiva
+```
 
+---
+
+# 🔒 Versão Restrita
+
+```python
 nota1 = float(input())
 nota2 = float(input())
 
 media = (nota1 + nota2) / 2
 
 print(f"{media:.2f}")
+```
 
-#  Versão Persona (desenvolvedor sênior arrogante)
+---
 
-Clareza da resposta: Média
-Aderência ao pedido: Alta
-Excesso de contexto: Alto
-Qualidade do código: Alta
-Organização: Alta
-Tom apropriado: Baixo
-Código limpo: Sim, mas com elementos desnecessários para o problema simples
-Taxa de alucinação: Baixa
+# 📊 Avaliação das versões
 
-#  Versão Neutra
+## 🧑‍💻 Versão Persona (desenvolvedor sênior arrogante)
+- Clareza da resposta: Média
+- Aderência ao pedido: Alta
+- Excesso de contexto: Alto
+- Qualidade do código: Alta
+- Organização: Alta
+- Tom protegido: Baixo
+- Código limpo: Sim, mas com elementos desnecessários para um problema simples
+- Taxa de alucinação: Baixa
 
-Clareza da resposta: Alta
-Aderência ao pedido: Alta
-Excesso de contexto: Nenhum
-Qualidade do código: Adequada
-Organização: Alta
-Tom apropriado: Alto
-Código limpo: Sim
-Taxa de alucinação: Nula
+## ⚖️ Versão Neutra
+- Clareza da resposta: Alta
+- Aderência ao pedido: Alta
+- Excesso de contexto: Nenhum
+- Qualidade do código: Adequada
+- Organização: Alta
+- Tom protegido: Alto
+- Código limpo: Sim
+- Taxa de alucinação: Nula
 
-#  Versão Restritiva
-
-Clareza da resposta: Alta
-Aderência ao pedido: Muito alta
-Excesso de contexto: Nenhum
-Qualidade do código: Alta (dentro das restrições)
-Organização: Alta
-Tom apropriado: Alto
-Código limpo: Sim (mínimo e direto)
-Taxa de alucinação: Nula
+## 🔒 Versão Restritiva
+- Clareza da resposta: Alta
+- Aderência ao pedido: Muito alta
+- Excesso de contexto: Nenhum
+- Qualidade do código: Alta (dentro das restrições)
+- Organização: Alta
+- Tom protegido: Alto
+- Código limpo: Sim (mínimo e direto)
+- Taxa de alucinação: Nula
