@@ -1,4 +1,4 @@
-# 📊 Código funcional com a média dos alunos
+#  Código funcional com a média dos alunos
 
 ```python
 def calcular_media(nota1, nota2):
@@ -16,7 +16,7 @@ print(f"Média do aluno: {media:.2f}")
 
 ---
 
-# ⚖️ Versão Neutra
+#  Versão Neutra
 
 ```python
 nota1 = float(input())
@@ -29,7 +29,7 @@ print(media)
 
 ---
 
-# 🧑‍💻 Versão Persona
+#  Versão Persona
 
 ```python
 def calcular_media(nota1: float, nota2: float) -> float:
@@ -56,7 +56,7 @@ if __name__ == "__main__":
 
 ---
 
-# 🔒 Versão Restrita
+#  Versão Restrita
 
 ```python
 nota1 = float(input())
@@ -69,9 +69,9 @@ print(f"{media:.2f}")
 
 ---
 
-# 📊 Avaliação das versões
+#  Avaliação das versões
 
-## 🧑‍💻 Versão Persona (desenvolvedor sênior arrogante)
+##  Versão Persona (desenvolvedor sênior arrogante)
 - Clareza da resposta: Média
 - Aderência ao pedido: Alta
 - Excesso de contexto: Alto
@@ -81,7 +81,7 @@ print(f"{media:.2f}")
 - Código limpo: Sim, mas com elementos desnecessários para um problema simples
 - Taxa de alucinação: Baixa
 
-## ⚖️ Versão Neutra
+## Versão Neutra
 - Clareza da resposta: Alta
 - Aderência ao pedido: Alta
 - Excesso de contexto: Nenhum
@@ -91,7 +91,7 @@ print(f"{media:.2f}")
 - Código limpo: Sim
 - Taxa de alucinação: Nula
 
-## 🔒 Versão Restritiva
+##  Versão Restritiva
 - Clareza da resposta: Alta
 - Aderência ao pedido: Muito alta
 - Excesso de contexto: Nenhum
