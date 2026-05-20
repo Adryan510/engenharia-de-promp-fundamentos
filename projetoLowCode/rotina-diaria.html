@@ -45,19 +45,24 @@
       }
     }
 
+    html, body { height: 100%; }
+
     body {
       background: var(--bg-secondary);
       color: var(--text);
       font-family: var(--font);
       font-size: 16px;
       line-height: 1.6;
-      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
     }
 
     .container {
       max-width: 740px;
       margin: 0 auto;
       padding: 2rem 1rem;
+      flex: 1;
+      width: 100%;
     }
 
     h1 {
@@ -431,8 +436,60 @@
       margin-bottom: 12px;
     }
 
+    /* FOOTER */
+    footer {
+      background: var(--bg);
+      border-top: 0.5px solid var(--border);
+      padding: 1.5rem 1rem;
+      margin-top: auto;
+    }
+
+    .footer-content {
+      max-width: 740px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .footer-title {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+    }
+
+    .collaborators {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .collaborator {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      color: var(--text-secondary);
+    }
+
+    .collaborator a {
+      color: var(--text-info);
+      text-decoration: none;
+      transition: opacity .15s;
+    }
+
+    .collaborator a:hover {
+      opacity: .7;
+      text-decoration: underline;
+    }
+
     @media (max-width: 500px) {
       .form-row { grid-template-columns: 1fr; }
+      .collaborators { flex-direction: column; gap: 8px; }
     }
   </style>
 </head>
@@ -510,6 +567,29 @@
     </div>
   </div>
 </div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-content">
+    <div class="footer-title">
+      <i class="ti ti-users" aria-hidden="true"></i> Colaboradores
+    </div>
+    <div class="collaborators">
+      <div class="collaborator">
+        <i class="ti ti-user-circle" aria-hidden="true"></i>
+        <a href="https://github.com/Lucasgomesbit" target="_blank">Lucas Kelvin</a>
+      </div>
+      <div class="collaborator">
+        <i class="ti ti-user-circle" aria-hidden="true"></i>
+        <a href="https://github.com/joaozinfcc-gif" target="_blank">João Pedro</a>
+      </div>
+      <div class="collaborator">
+        <i class="ti ti-user-circle" aria-hidden="true"></i>
+        <a href="https://github.com/Adryan510" target="_blank">Adryan</a>
+      </div>
+    </div>
+  </div>
+</footer>
 
 <script>
   // ─── DADOS ───────────────────────────────────────────────
