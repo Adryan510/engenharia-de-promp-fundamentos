@@ -1,6 +1,5 @@
 # Projeto Módulo 3 – Low Code/No Code/Vibecode
-
-**[ACESSAR VERSÃO PDF]**
+**Link do Projeto:** [https://gemini.google.com/share/006fd0f89d6b](https://gemini.google.com/share/006fd0f89d6b)
 
 ### 📌 Desafio Escolhido
 **Organizador de Rotina Inteligente.** O objetivo do projeto foi automatizar a criação e o acompanhamento da rotina diária, que geralmente é feita de forma desorganizada em notas mentais ou papéis avulsos. Em vez de apenas listar tarefas, o usuário utiliza esta interface para gerenciar o tempo de forma visual, recebendo sugestões inteligentes da IA para períodos de lazer, garantindo um equilíbrio entre produtividade e bem-estar.
