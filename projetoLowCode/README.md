@@ -5,7 +5,6 @@
 **Organizador de Rotina Inteligente.** O objetivo do projeto foi automatizar a criação e o acompanhamento da rotina diária, que geralmente é feita de forma desorganizada em notas mentais ou papéis avulsos. Em vez de apenas listar tarefas, o usuário utiliza esta interface para gerenciar o tempo de forma visual, recebendo sugestões inteligentes da IA para períodos de lazer, garantindo um equilíbrio entre produtividade e bem-estar.
 
 ### 🖥️ Protótipo
-**Link do Projeto:** [https://gemini.google.com/share/006fd0f89d6b](https://gemini.google.com/share/006fd0f89d6b)
 
 **Breve explicação de funcionamento:** Esta plataforma foi pensada para estudantes e profissionais que precisam de uma visão clara do seu dia. Através de comandos simples (prompts), o usuário alimenta sua agenda. A interface organiza tudo em uma linha do tempo, calcula o progresso das tarefas concluídas e oferece uma aba de "Tempo Livre", onde a IA sugere atividades como leitura ou meditação para preencher lacunas no dia.
 
