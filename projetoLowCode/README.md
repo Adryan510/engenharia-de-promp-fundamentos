@@ -1,6 +1,7 @@
 # Projeto Módulo 3 – Low Code/No Code/Vibecode
 
 ## 📌 Desafio Escolhido
+Link do Projeto: [https://gemini.google.com/share/006fd0f89d6b]
 
 O grupo desenvolveu uma aplicação de organização de rotina diária utilizando abordagem low code/no code/vibecode. O objetivo do projeto foi criar uma interface simples e interativa que permitisse ao usuário organizar atividades do dia, acompanhar o progresso das tarefas e receber sugestões inteligentes de atividades para o tempo livre.
 
