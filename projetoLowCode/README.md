@@ -35,3 +35,23 @@ Embora existam limitações de salvamento de dados em nuvem para este protótipo
 * **João Pedro Fonseca Barros:** [https://github.com/joaozinfcc-gif](https://github.com/joaozinfcc-gif)
 * **Adryan da Silva Ferreira:** [https://github.com/Adryan510](https://github.com/Adryan510)
 * **Lucas Kelvin Gomes Da Paz:** [https://github.com/Lucasgomesbit](https://github.com/Lucasgomesbit)
+
+## 📝 Registro da Aula
+**Data:** 11/05/2026  
+**Atividade:** Discussão crítica + mini-projeto de aplicação  
+**Local:** Laboratório de informática / Quadro branco  
+**Professor(a):** Kadidja Valéria  
+
+---
+
+## 🚀 Próximos Passos (Evolução do Projeto)
+
+### 🛠️ Melhorias Sugeridas para o Protótipo
+* **Engenharia de Prompt Avançada:** Refinar as instruções para que a IA atue como um coach de produtividade (ex: aplicando técnica Pomodoro).
+* **Gamificação:** Adicionar barras de progresso e "conquistas" ao concluir tarefas para aumentar o engajamento.
+* **Interface Focada:** Implementar um "Modo Foco" visual para reduzir distrações durante a execução de uma atividade.
+
+### 📈 Evoluções para o Projeto Final (Unidade 3)
+* **Persistência de Dados:** Evoluir do armazenamento local para uma base de dados simples (No-Code) para evitar perda de informações.
+* **Inteligência Contextual:** Integrar sugestões que considerem fatores externos (ex: clima ou horário do dia).
+* **Validação de UX:** Realizar testes de usabilidade para ajustar a fluidez da navegação gerada via Vibecode.
